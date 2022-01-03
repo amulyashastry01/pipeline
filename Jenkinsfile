@@ -23,7 +23,7 @@ pipeline {
 				sh ''' 
 					sleep 5
 					du -h 
-				   '''
+				   '''  
 			}
 		}
 	}
