@@ -3,8 +3,8 @@ pipeline {
 	stages {
 		stage('BUILD') {
 			steps {
-						sh 'echo this is build stage in pipeline job'
-						sh 'sleep 5'
+				sh 'echo this is build stage in pipeline job'
+				sh 'sleep 5'
 			}
 								
 				
